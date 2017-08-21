@@ -8,13 +8,12 @@
     "web-component",
     "web-components",
     "polymer",
-    "lostinbrittany",
     "d3",
     "c3"
   ],
   "main": "granite-c3.html",
   "license": "MIT",
-  "homepage": "https://github.com/LostInBrittany/granite-c3",
+  "homepage": "https://github.com/openlogger/granite-c3",
   "ignore": [
   ],
   "dependencies": {
