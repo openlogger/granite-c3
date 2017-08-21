@@ -15,17 +15,6 @@ This is a fork on [https://lostinbrittany.github.io/granite-c3](https://lostinbr
 
 ## Usage
 
-<!---
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="granite-c3.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
 ```html
 <granite-c3 data='{"x": "x", "columns": [["x", "2013-01-01", "2013-01-02", "2013-01-03", "2013-01-04", "2013-01-05", "2013-01-06"],["data1", 30, 200, 100, null, 150, 250],["data2",130, 340, 200, null, 200, 350]],"type": "step"}' axis='{ "x": {"type": "timeseries", "tick": { "format": "%Y-%m-%d"} } }'></granite-c3>
 ```
@@ -41,10 +30,10 @@ This is a fork on [https://lostinbrittany.github.io/granite-c3](https://lostinbr
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install LostInBrittany/granite-alert --save
+$ bower install openlogger/granite-c3 --save
 ```
 
-Or [download as ZIP](https://github.com/LostInBrittany/granite-alert/archive/gh-pages.zip).## Usage
+Or [download as ZIP](https://github.com/openlogger/granite-c3/archive/gh-pages.zip).## Usage
 
 1. Import Web Components' polyfill (if needed):
 
