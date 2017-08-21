@@ -6,6 +6,8 @@
 >
 > Polymer 1.5 ready
 
+This is a fork on [https://lostinbrittany.github.io/granite-c3](https://lostinbrittany.github.io/granite-c3), adding some css variables for custom styling.
+
 ## Doc & demo
 
 [https://lostinbrittany.github.io/granite-c3](https://lostinbrittany.github.io/granite-c3)
@@ -26,6 +28,12 @@
 -->
 ```html
 <granite-c3 data='{"x": "x", "columns": [["x", "2013-01-01", "2013-01-02", "2013-01-03", "2013-01-04", "2013-01-05", "2013-01-06"],["data1", 30, 200, 100, null, 150, 250],["data2",130, 340, 200, null, 200, 350]],"type": "step"}' axis='{ "x": {"type": "timeseries", "tick": { "format": "%Y-%m-%d"} } }'></granite-c3>
+```
+
+### Css variables
+```css
+--xy-region-opacity: /* global region opacity */
+--xy-region-fill-clr-[1-5]: /* region colors 1-5. Add css class 'clr-1' to regions that will get color '--xy-region-fill-clr-1' */
 ```
 
 ## Install
